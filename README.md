@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @DzKriMo
-- 👀 I’m Sports games and music
+- 👀 I love Sports games and music
 - 🌱 I’m currently learning computer science 
 - 📫 How to reach me at amamra.mehdiakram@gmail.com 
