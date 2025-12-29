@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DzKriMo/DzKriMo/main/assets/banner.png" />
+  <img src="https://hips.hearstapps.com/hmg-prod/images/2024-porsche-911-gt3-rs-138-64ecda037334a.jpg?crop=0.606xw:0.454xh;0.189xw,0.315xh&resize=1200:*" />
 </p>
 
 <h1 align="center">🏎️ Akram Mehdi Amamra</h1>
