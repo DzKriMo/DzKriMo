@@ -81,17 +81,6 @@ I treat infrastructure like engines:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
 </p>
 
----
-
-## 📊 Performance Metrics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DzKriMo&show_icons=true&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DzKriMo&theme=tokyonight&hide_border=true"/>
-</p>
 
 ---
 
