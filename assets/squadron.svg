@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="176" viewBox="0 0 1000 176" role="img">
+<title>Flight log: visitors who requested a flyby</title>
+<desc>Every visitor who opened a flyby issue gets their callsign painted on the wall as a jet.</desc>
+<rect width="1000" height="176" fill="#04070d"/>
+
+  <text x="40" y="38" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="bold" letter-spacing="3" fill="#6fd2ff">FLIGHT LOG // WALL OF FLYBYS</text>
+  <text x="960" y="38" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#9aa7b8">0 CALLSIGNS CLEARED FOR THE STRIP</text>
+  <line x1="40" y1="50" x2="960" y2="50" stroke="#1c2536" stroke-width="1"/>
+
+  <rect x="40" y="72" width="920" height="118" rx="12" fill="#0e131c" stroke="#232d40" stroke-width="1" stroke-dasharray="8 6"/>
+  <text x="500" y="118" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="2" fill="#9aa7b8">NO FLYBYS LOGGED — THE PATTERN IS EMPTY</text>
+  <text x="500" y="144" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5c6a7d">BE THE FIRST: OPEN AN ISSUE TITLED</text>
+  <text x="500" y="166" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#ffb86c">FLYBY: YOUR_CALLSIGN</text>
+</svg>

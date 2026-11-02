@@ -1,0 +1,63 @@
+# FLYBY — the tower that clears visitor callsigns onto the wall.
+#
+# Any issue titled "FLYBY: <callsign>" gets registered in
+# data/squadron.json, a clearance comment, and a close. The wall
+# (assets/squadron.svg) repaints in the same run.
+name: Flyby
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: the-strip
+  cancel-in-progress: false
+
+jobs:
+  clear:
+    if: >-
+      startsWith(github.event.issue.title, 'FLYBY') ||
+      startsWith(github.event.issue.title, 'flyby') ||
+      startsWith(github.event.issue.title, 'Flyby')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Register the callsign
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_LOGIN: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/flyby.mjs
+
+      - name: Repaint the wall
+        run: node scripts/render.mjs
+
+      - name: Clear the visitor + close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file data/flyby-reply.md
+          gh issue close "$ISSUE_NUMBER" --reason completed
+
+      - name: Commit the new wall
+        shell: bash
+        run: |
+          git add data/squadron.json assets/squadron.svg
+          if git diff --cached --quiet; then
+            echo "Wall unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "flyby: clear a new callsign onto the wall"
+          git push --quiet
