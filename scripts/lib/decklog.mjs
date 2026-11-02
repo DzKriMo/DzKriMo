@@ -1,9 +1,9 @@
-// ARIA DECK LOG — the AI panel of the DZ-KRI profile.
+// ARIA DECK LOG - the AI panel of the DZ-KRI profile.
 //
 // The onboard AI boots and types a recon report about the pilot, built from
 // the snapshot: identity, hangars, sorties, streak, emissions (languages)
 // and one finding. Lines type in one by one through animated clip paths;
-// the cursor never stops blinking. The terminal stays dark in both themes —
+// the cursor never stops blinking. The terminal stays dark in both themes -
 // terminals do.
 
 import { themes, FONT, dotted } from './theme.mjs';
@@ -35,12 +35,12 @@ export function renderDecklog(snapshot) {
   const lines = [
     { segs: [['aria@dz-kri:~$ ', C.prompt], ['recon --target DzKriMo --depth full', C.data]] },
     { segs: [['[boot] ', C.sys], ['ARIA v2.3 · reasoning engine online · sensors nominal', C.sys]] },
-    { segs: [['[ ok ] ', C.ok], [dotted('identity', 16) + 'Akram Mehdi Amamra — CS Engineer · Security × AI', C.data]] },
+    { segs: [['[ ok ] ', C.ok], [dotted('identity', 16) + 'Akram Mehdi Amamra · CS Engineer · security + AI', C.data]] },
     { segs: [['[ ok ] ', C.ok], [dotted('hangars', 16) + `${p.publicRepos} public repos · ${p.totalStars} stars on the fence`, C.data]] },
     { segs: [['[ ok ] ', C.ok], [dotted('sorties', 16) + `${c.total} contributions in the last 12 months`, C.data]] },
     { segs: [['[ ok ] ', C.ok], [dotted('streak', 16) + `${streak.current} days hot · record ${streak.longest} days`, C.data]] },
     { segs: [['[ ok ] ', C.ok], [dotted('emissions', 16) + langs, C.data]] },
-    { segs: [['[ !! ] ', C.warn], [dotted('finding', 16) + 'subject ships fast — recommend more fuel, less sleep', C.warn]] },
+    { segs: [['[ !! ] ', C.warn], [dotted('finding', 16) + 'activity comes in bursts · probably deadlines', C.warn]] },
     { segs: [['aria@dz-kri:~$ ', C.prompt], ['status → AIRBORNE · cleared to build', C.ai]] },
   ];
 
@@ -73,7 +73,7 @@ export function renderDecklog(snapshot) {
   <circle cx="44" cy="38" r="5" fill="#ff5f56"/>
   <circle cx="62" cy="38" r="5" fill="#ffbd2e"/>
   <circle cx="80" cy="38" r="5" fill="#27c93f"/>
-  <text x="500" y="42" text-anchor="middle" font-family="${FONT}" font-size="11" letter-spacing="1" fill="${C.sys}">aria@dz-kri — flight deck log</text>
+  <text x="500" y="42" text-anchor="middle" font-family="${FONT}" font-size="11" letter-spacing="1" fill="${C.sys}">aria@dz-kri: flight deck log</text>
   <text x="956" y="42" text-anchor="end" font-family="${FONT}" font-size="11" fill="${C.sys}">v2.3</text>
   <line x1="20" y1="54" x2="980" y2="54" stroke="#21262d" stroke-width="1"/>
 

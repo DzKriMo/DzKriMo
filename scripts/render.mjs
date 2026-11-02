@@ -24,7 +24,7 @@ function readJson(path, fallback) {
 
 const snapshot = readJson(new URL('data/snapshot.json', ROOT), null);
 if (!snapshot) {
-  console.error('No data/snapshot.json — run: node scripts/fetch.mjs');
+  console.error('No data/snapshot.json. Run: node scripts/fetch.mjs');
   process.exit(1);
 }
 const squadron = readJson(new URL('data/squadron.json', ROOT), { members: [] });

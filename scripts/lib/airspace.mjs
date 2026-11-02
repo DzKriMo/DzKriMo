@@ -1,7 +1,7 @@
-// THE STRIP — the hero scene of the DZ-KRI profile.
+// THE STRIP - the hero scene of the DZ-KRI profile.
 //
 // The contribution graph is the runway: 53 weeks of light segments, one per
-// day, lit when you committed. A fighter jet flies the pattern above it —
+// day, lit when you committed. A fighter jet flies the pattern above it -
 // its livery striped in your top languages, its contrail length set by the
 // last week of activity, its afterburner lit while you're on a streak
 // (the git-koi idea: the day that just ended decides how it flies).
@@ -96,7 +96,7 @@ export function renderAirspace(snapshot, themeKey) {
   <!-- HUD -->
   <text x="40" y="36" font-family="${FONT}" font-size="16" font-weight="bold" letter-spacing="3" fill="${t.accent}">DZ-KRI // FLIGHT OPS</text>
   <text x="960" y="36" text-anchor="end" font-family="${FONT}" font-size="11" letter-spacing="2" fill="${t.textDim}">RWY 09L · ${t.opsLabel} · SQUAWK 00${String(repos).padStart(2, '0')}</text>
-  <text x="40" y="58" font-family="${FONT}" font-size="11" letter-spacing="1" fill="${t.text}">CALLSIGN ${CALLSIGN} — ${esc(snapshot.profile.name).toUpperCase()} · ${stars} STARS ON THE FENCE</text>
+  <text x="40" y="58" font-family="${FONT}" font-size="11" letter-spacing="1" fill="${t.text}">CALLSIGN ${CALLSIGN} · ${esc(snapshot.profile.name).toUpperCase()} · ${stars} STARS ON THE FENCE</text>
   <text x="960" y="58" text-anchor="end" font-family="${FONT}" font-size="11" letter-spacing="1" fill="${t.text}">SORTIES ${total}/12MO · BEST STREAK ${streak.longest}D · HANGARS ${repos}</text>
   <line x1="40" y1="70" x2="960" y2="70" stroke="${t.hairline}" stroke-width="1"/>
 
@@ -191,8 +191,8 @@ export function renderAirspace(snapshot, themeKey) {
   </g>
 
   <!-- footer -->
-  <text x="84" y="${H - 12}" font-family="${FONT}" font-size="9" letter-spacing="1" fill="${t.textDim}">EVERY LIGHT IS A SORTIE — REDRAWN NIGHTLY FROM LIVE GITHUB DATA</text>
-  <text x="916" y="${H - 12}" text-anchor="end" font-family="${FONT}" font-size="9" letter-spacing="1" fill="${t.textDim}">SRC GITHUB API · NO SERVERS · LAST SORTIE ${streak.lastActive ? dayStamp(streak.lastActive) : '—'}</text>
+  <text x="84" y="${H - 12}" font-family="${FONT}" font-size="9" letter-spacing="1" fill="${t.textDim}">EVERY LIGHT IS A SORTIE · REDRAWN NIGHTLY FROM LIVE GITHUB DATA</text>
+  <text x="916" y="${H - 12}" text-anchor="end" font-family="${FONT}" font-size="9" letter-spacing="1" fill="${t.textDim}">SRC GITHUB API · NO SERVERS · LAST SORTIE ${streak.lastActive ? dayStamp(streak.lastActive) : '-'}</text>
 </svg>`;
 }
 

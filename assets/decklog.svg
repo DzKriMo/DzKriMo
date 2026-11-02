@@ -15,7 +15,7 @@
   <circle cx="44" cy="38" r="5" fill="#ff5f56"/>
   <circle cx="62" cy="38" r="5" fill="#ffbd2e"/>
   <circle cx="80" cy="38" r="5" fill="#27c93f"/>
-  <text x="500" y="42" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#8b949e">aria@dz-kri — flight deck log</text>
+  <text x="500" y="42" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#8b949e">aria@dz-kri: flight deck log</text>
   <text x="956" y="42" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">v2.3</text>
   <line x1="20" y1="54" x2="980" y2="54" stroke="#21262d" stroke-width="1"/>
 
@@ -36,7 +36,7 @@
       <animate attributeName="width" from="0" to="584.7" begin="3.08s" dur="1.59s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
     </rect>
   </clipPath>
-  <text x="48" y="126" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type2)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">identity ········ Akram Mehdi Amamra — CS Engineer · Security × AI</tspan></text>
+  <text x="48" y="126" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type2)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">identity ········ Akram Mehdi Amamra · CS Engineer · security + AI</tspan></text>
   <clipPath id="type3">
     <rect x="44" y="136" width="0" height="18">
       <animate attributeName="width" from="0" to="505.7" begin="4.89s" dur="1.37s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
@@ -63,13 +63,13 @@
   <text x="48" y="222" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type6)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">emissions ······· HTML · JavaScript · Python · Kotlin · TypeScript</tspan></text>
   <clipPath id="type7">
     <rect x="44" y="232" width="0" height="18">
-      <animate attributeName="width" from="0" to="616.3" begin="11.22s" dur="1.67s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
+      <animate attributeName="width" from="0" to="561.0" begin="11.22s" dur="1.52s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
     </rect>
   </clipPath>
-  <text x="48" y="246" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type7)"><tspan fill="#d29922">[ !! ] </tspan><tspan fill="#d29922">finding ········· subject ships fast — recommend more fuel, less sleep</tspan></text>
+  <text x="48" y="246" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type7)"><tspan fill="#d29922">[ !! ] </tspan><tspan fill="#d29922">finding ········· activity comes in bursts · probably deadlines</tspan></text>
   <clipPath id="type8">
     <rect x="44" y="256" width="0" height="18">
-      <animate attributeName="width" from="0" to="410.9" begin="13.12s" dur="1.11s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
+      <animate attributeName="width" from="0" to="410.9" begin="12.97s" dur="1.11s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
     </rect>
   </clipPath>
   <text x="48" y="270" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type8)"><tspan fill="#3fb950">aria@dz-kri:~$ </tspan><tspan fill="#58a6ff">status → AIRBORNE · cleared to build</tspan></text>

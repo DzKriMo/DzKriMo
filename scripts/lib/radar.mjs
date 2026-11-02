@@ -1,6 +1,6 @@
-// SIGINT SCOPE — the cybersecurity panel of the DZ-KRI profile.
+// SIGINT SCOPE - the cybersecurity panel of the DZ-KRI profile.
 //
-// A passive radar: the sweep turns forever, and the repos are contacts —
+// A passive radar: the sweep turns forever, and the repos are contacts -
 // blips placed deterministically (hash of the repo name), sized by stars,
 // colored by language. The contact list on the right is the scope's
 // intercept log, and the emission signature is the language mix bar.
@@ -114,7 +114,7 @@ function contactRow(repo, i, t) {
   return `<g>
     <rect x="330" y="${y - 9}" width="9" height="9" rx="1.5" fill="${repo.languageColor}"/>
     <text x="347" y="${y}" font-family="${FONT}" font-size="11" fill="${t.textBright}">${esc(repo.name)}</text>
-    <text x="640" y="${y}" font-family="${FONT}" font-size="10" fill="${t.textDim}">${esc(repo.language || '—')}</text>
+    <text x="640" y="${y}" font-family="${FONT}" font-size="10" fill="${t.textDim}">${esc(repo.language || '-')}</text>
     <text x="742" y="${y}" font-family="${FONT}" font-size="10" fill="${t.textDim}">★ ${repo.stars}</text>
     <text x="960" y="${y}" text-anchor="end" font-family="${FONT}" font-size="10" fill="${t.textDim}">last push ${pushed}</text>
   </g>`;

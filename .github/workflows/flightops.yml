@@ -1,4 +1,4 @@
-# FLIGHT OPS — redraw the strip nightly from live GitHub data.
+# FLIGHT OPS - redraw the strip nightly from live GitHub data.
 #
 # Runs just after midnight UTC so the panels show the day that just ended
 # (the git-koi idea), and whenever the pipeline itself changes. Commits

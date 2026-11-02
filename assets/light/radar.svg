@@ -129,7 +129,7 @@
   <g>
     <rect x="330" y="238" width="9" height="9" rx="1.5" fill="#8b949e"/>
     <text x="347" y="247" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#1f2328">HealthCare-OS</text>
-    <text x="640" y="247" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8b949e">—</text>
+    <text x="640" y="247" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8b949e">-</text>
     <text x="742" y="247" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8b949e">★ 0</text>
     <text x="960" y="247" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8b949e">last push 2026-07-25</text>
   </g>

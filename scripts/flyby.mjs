@@ -1,4 +1,4 @@
-// THE TOWER — flyby clearance bot.
+// THE TOWER - flyby clearance bot.
 //
 // Triggered by the Flyby workflow on any issue whose title starts with
 // "FLYBY:". Registers the requester's callsign in data/squadron.json
@@ -50,7 +50,7 @@ let heading;
 if (existing) {
   const old = existing.callsign;
   existing.callsign = callsign;
-  heading = `Callsign updated: **${old}** → **${callsign}**. The paint crew repainted your jet; the wall shows the change within a minute.`;
+  heading = `Callsign updated: **${old}** to **${callsign}**. The wall repaints in about a minute.`;
 } else {
   squadron.members.push({
     login,
@@ -61,7 +61,7 @@ if (existing) {
   if (squadron.members.length > MAX_MEMBERS) {
     squadron.members = squadron.members.slice(-MAX_MEMBERS);
   }
-  heading = `Cleared for the strip. **${callsign}**, you're jet number ${squadron.members.length} on the wall — the paint crew gets to work, the flight log repaints within a minute.`;
+  heading = `Cleared. **${callsign}**, you're jet number ${squadron.members.length} on the wall. Give it a minute to repaint.`;
 }
 
 squadron.members.sort((a, b) => String(a.joinedAt).localeCompare(String(b.joinedAt)));
@@ -75,8 +75,8 @@ DZ-KRI TOWER · issue #${number}
 → The wall: https://github.com/DzKriMo/DzKriMo#flight-log
 \`\`\`
 
-*Nothing is stored except your callsign and login — check [data/squadron.json](https://github.com/DzKriMo/DzKriMo/blob/main/data/squadron.json). Closing this issue; the strip never forgets.*
+*Nothing is stored beyond callsign and login, check [data/squadron.json](https://github.com/DzKriMo/DzKriMo/blob/main/data/squadron.json). Closing the issue. See you on the strip.*
 `;
 
 writeFileSync(REPLY_PATH, reply);
-console.log(`Cleared ${callsign} (@${login}) — ${squadron.members.length} members on the wall.`);
+console.log(`Cleared ${callsign} (@${login}). ${squadron.members.length} members on the wall.`);

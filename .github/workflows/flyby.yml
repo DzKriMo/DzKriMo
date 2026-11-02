@@ -1,4 +1,4 @@
-# FLYBY — the tower that clears visitor callsigns onto the wall.
+# FLYBY - the tower that clears visitor callsigns onto the wall.
 #
 # Any issue titled "FLYBY: <callsign>" gets registered in
 # data/squadron.json, a clearance comment, and a close. The wall

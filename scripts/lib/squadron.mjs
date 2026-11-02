@@ -1,4 +1,4 @@
-// FLIGHT LOG — the visitor wall of the DZ-KRI profile.
+// FLIGHT LOG - the visitor wall of the DZ-KRI profile.
 //
 // Anyone can request a flyby: they open an issue titled "FLYBY: <callsign>",
 // the tower (a GitHub Action) clears them, and their callsign gets painted
@@ -30,7 +30,7 @@ export function renderSquadron(squadron) {
   if (shown.length === 0) {
     body = `
   <rect x="40" y="72" width="920" height="118" rx="12" fill="#0e131c" stroke="#232d40" stroke-width="1" stroke-dasharray="8 6"/>
-  <text x="500" y="118" text-anchor="middle" font-family="${FONT}" font-size="13" letter-spacing="2" fill="#9aa7b8">NO FLYBYS LOGGED — THE PATTERN IS EMPTY</text>
+  <text x="500" y="118" text-anchor="middle" font-family="${FONT}" font-size="13" letter-spacing="2" fill="#9aa7b8">NO FLYBYS LOGGED · PATTERN EMPTY</text>
   <text x="500" y="144" text-anchor="middle" font-family="${FONT}" font-size="12" fill="#5c6a7d">BE THE FIRST: OPEN AN ISSUE TITLED</text>
   <text x="500" y="166" text-anchor="middle" font-family="${FONT}" font-size="12" fill="#ffb86c">FLYBY: YOUR_CALLSIGN</text>`;
   } else {
