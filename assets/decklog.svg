@@ -48,7 +48,7 @@
       <animate attributeName="width" from="0" to="513.6" begin="6.48s" dur="1.39s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
     </rect>
   </clipPath>
-  <text x="48" y="174" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type4)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">sorties ········· 143 contributions in the last 12 months</tspan></text>
+  <text x="48" y="174" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type4)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">sorties ········· 145 contributions in the last 12 months</tspan></text>
   <clipPath id="type5">
     <rect x="44" y="184" width="0" height="18">
       <animate attributeName="width" from="0" to="410.9" begin="8.09s" dur="1.11s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
