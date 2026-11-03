@@ -6,7 +6,7 @@
       <stop offset="0" stop-color="#04070d"/>
       <stop offset="1" stop-color="#0b1424"/>
     </linearGradient>
-    <linearGradient id="trail" gradientUnits="userSpaceOnUse" x1="-50" y1="0" x2="-177" y2="0">
+    <linearGradient id="trail" gradientUnits="userSpaceOnUse" x1="-50" y1="0" x2="-159" y2="0">
       <stop offset="0" stop-color="#cfe6ff" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#cfe6ff" stop-opacity="0"/>
     </linearGradient>
@@ -457,6 +457,7 @@
   <rect x="867" y="258" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="168" width="11" height="11" rx="2" fill="#006d32"/>
   <rect x="882" y="183" width="11" height="11" rx="2" fill="#006d32"/>
+  <rect x="882" y="198" width="11" height="11" rx="2" fill="#141a26"/>
 
   <!-- in-strip caption + level legend -->
   <text x="100" y="281" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1" fill="#5c6a7d">53 WEEKS · EVERY LIT CELL IS A SORTIE</text>
@@ -472,8 +473,8 @@
     <g>
       <animateTransform attributeName="transform" type="translate" from="-160 0" to="1160 0" dur="13.25s" repeatCount="indefinite"/>
       <g transform="scale(0.916)">
-        <rect x="-177" y="-2.6" width="127" height="1.5" fill="url(#trail)"/>
-        <rect x="-177" y="1.1" width="127" height="1.5" fill="url(#trail)"/>
+        <rect x="-159" y="-2.6" width="109" height="1.5" fill="url(#trail)"/>
+        <rect x="-159" y="1.1" width="109" height="1.5" fill="url(#trail)"/>
         
         <circle cx="-49" cy="0" r="5" fill="#ff9f43">
           <animate attributeName="opacity" values="0.75;0.3;0.75" dur="0.4s" repeatCount="indefinite"/>
