@@ -54,7 +54,7 @@
       <animate attributeName="width" from="0" to="410.9" begin="8.09s" dur="1.11s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
     </rect>
   </clipPath>
-  <text x="48" y="198" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type5)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">streak ·········· 2 days hot · record 3 days</tspan></text>
+  <text x="48" y="198" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" clip-path="url(#type5)"><tspan fill="#3fb950">[ ok ] </tspan><tspan fill="#e6edf3">streak ·········· 0 days hot · record 3 days</tspan></text>
   <clipPath id="type6">
     <rect x="44" y="208" width="0" height="18">
       <animate attributeName="width" from="0" to="584.7" begin="9.42s" dur="1.59s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.8 1" keyTimes="0;1"/>
