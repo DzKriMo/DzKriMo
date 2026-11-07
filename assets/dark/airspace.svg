@@ -461,6 +461,7 @@
   <rect x="882" y="213" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="228" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="243" width="11" height="11" rx="2" fill="#141a26"/>
+  <rect x="882" y="258" width="11" height="11" rx="2" fill="#141a26"/>
 
   <!-- in-strip caption + level legend -->
   <text x="100" y="281" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1" fill="#5c6a7d">53 WEEKS · EVERY LIT CELL IS A SORTIE</text>
@@ -474,7 +475,7 @@
   <!-- jet flying the pattern -->
   <g transform="translate(0,112)">
     <g>
-      <animateTransform attributeName="transform" type="translate" from="-160 0" to="1160 0" dur="13.25s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" from="-160 0" to="1160 0" dur="13.5s" repeatCount="indefinite"/>
       <g transform="scale(0.916)">
         <rect x="-159" y="-2.6" width="109" height="1.5" fill="url(#trail)"/>
         <rect x="-159" y="1.1" width="109" height="1.5" fill="url(#trail)"/>
