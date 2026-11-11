@@ -458,6 +458,7 @@
   <rect x="882" y="168" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="183" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="198" width="11" height="11" rx="2" fill="#141a26"/>
+  <rect x="882" y="213" width="11" height="11" rx="2" fill="#141a26"/>
 
   <!-- in-strip caption + level legend -->
   <text x="100" y="281" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1" fill="#5c6a7d">53 WEEKS · EVERY LIT CELL IS A SORTIE</text>
