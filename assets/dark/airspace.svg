@@ -43,7 +43,7 @@
   <text x="40" y="36" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="bold" letter-spacing="3" fill="#6fd2ff">DZ-KRI // FLIGHT OPS</text>
   <text x="960" y="36" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="2" fill="#5c6a7d">RWY 09L · NIGHT OPS · SQUAWK 0036</text>
   <text x="40" y="58" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#9aa7b8">CALLSIGN TH3KR1M0 · TH3KR1M0 · 6 STARS ON THE FENCE</text>
-  <text x="960" y="58" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#9aa7b8">SORTIES 145/12MO · BEST STREAK 3D · HANGARS 36</text>
+  <text x="960" y="58" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#9aa7b8">SORTIES 134/12MO · BEST STREAK 3D · HANGARS 36</text>
   <line x1="40" y1="70" x2="960" y2="70" stroke="#1c2536" stroke-width="1"/>
 
   <!-- control tower -->
@@ -455,6 +455,7 @@
   <rect x="867" y="243" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="867" y="258" width="11" height="11" rx="2" fill="#141a26"/>
   <rect x="882" y="168" width="11" height="11" rx="2" fill="#141a26"/>
+  <rect x="882" y="183" width="11" height="11" rx="2" fill="#141a26"/>
 
   <!-- in-strip caption + level legend -->
   <text x="100" y="281" font-family="ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1" fill="#5c6a7d">53 WEEKS · EVERY LIT CELL IS A SORTIE</text>
@@ -469,7 +470,7 @@
   <g transform="translate(0,112)">
     <g>
       <animateTransform attributeName="transform" type="translate" from="-160 0" to="1160 0" dur="13.75s" repeatCount="indefinite"/>
-      <g transform="scale(0.916)">
+      <g transform="scale(0.907)">
         <rect x="-96" y="-2.6" width="46" height="1.5" fill="url(#trail)"/>
         <rect x="-96" y="1.1" width="46" height="1.5" fill="url(#trail)"/>
         
