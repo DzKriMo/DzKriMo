@@ -1,7 +1,7 @@
 {
   "meta": {
     "login": "DzKriMo",
-    "capturedAt": "2026-11-25T09:02:01.101Z",
+    "capturedAt": "2026-11-26T08:49:56.096Z",
     "source": "graphql"
   },
   "profile": {
@@ -11,7 +11,7 @@
     "totalStars": 6
   },
   "contributions": {
-    "total": 134,
+    "total": 141,
     "days": [
       {
         "date": "2025-11-23",
@@ -2423,8 +2423,8 @@
       },
       {
         "date": "2026-11-02",
-        "count": 4,
-        "level": 2,
+        "count": 6,
+        "level": 3,
         "col": 49,
         "row": 1
       },
@@ -2584,18 +2584,25 @@
       },
       {
         "date": "2026-11-25",
+        "count": 5,
+        "level": 2,
+        "col": 52,
+        "row": 3
+      },
+      {
+        "date": "2026-11-26",
         "count": 0,
         "level": 0,
         "col": 52,
-        "row": 3
+        "row": 4
       }
     ]
   },
   "streak": {
-    "current": 0,
+    "current": 1,
     "longest": 3,
     "longestEnd": "2026-03-07",
-    "lastActive": "2026-11-02"
+    "lastActive": "2026-11-25"
   },
   "languages": [
     {
@@ -2668,22 +2675,22 @@
       "url": "https://github.com/DzKriMo/Keraunos"
     },
     {
-      "name": "DzKriMo",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 0,
-      "pushedAt": "2026-11-24T10:21:20Z",
-      "description": "Config files for my GitHub profile.",
-      "url": "https://github.com/DzKriMo/DzKriMo"
-    },
-    {
       "name": "Veyltrace-X",
       "language": "Java",
       "languageColor": "#b07219",
       "stars": 0,
-      "pushedAt": "2026-11-02T17:14:18Z",
+      "pushedAt": "2026-11-25T15:42:50Z",
       "description": null,
       "url": "https://github.com/DzKriMo/Veyltrace-X"
+    },
+    {
+      "name": "DzKriMo",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "pushedAt": "2026-11-25T09:02:02Z",
+      "description": "Config files for my GitHub profile.",
+      "url": "https://github.com/DzKriMo/DzKriMo"
     },
     {
       "name": "Nur",
