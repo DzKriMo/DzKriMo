@@ -1,7 +1,7 @@
 {
   "meta": {
     "login": "DzKriMo",
-    "capturedAt": "2026-11-26T08:49:56.096Z",
+    "capturedAt": "2026-11-27T08:59:08.501Z",
     "source": "graphql"
   },
   "profile": {
@@ -2595,11 +2595,18 @@
         "level": 0,
         "col": 52,
         "row": 4
+      },
+      {
+        "date": "2026-11-27",
+        "count": 0,
+        "level": 0,
+        "col": 52,
+        "row": 5
       }
     ]
   },
   "streak": {
-    "current": 1,
+    "current": 0,
     "longest": 3,
     "longestEnd": "2026-03-07",
     "lastActive": "2026-11-25"
@@ -2675,6 +2682,15 @@
       "url": "https://github.com/DzKriMo/Keraunos"
     },
     {
+      "name": "DzKriMo",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "pushedAt": "2026-11-26T08:49:57Z",
+      "description": "Config files for my GitHub profile.",
+      "url": "https://github.com/DzKriMo/DzKriMo"
+    },
+    {
       "name": "Veyltrace-X",
       "language": "Java",
       "languageColor": "#b07219",
@@ -2682,15 +2698,6 @@
       "pushedAt": "2026-11-25T15:42:50Z",
       "description": null,
       "url": "https://github.com/DzKriMo/Veyltrace-X"
-    },
-    {
-      "name": "DzKriMo",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "stars": 0,
-      "pushedAt": "2026-11-25T09:02:02Z",
-      "description": "Config files for my GitHub profile.",
-      "url": "https://github.com/DzKriMo/DzKriMo"
     },
     {
       "name": "Nur",
